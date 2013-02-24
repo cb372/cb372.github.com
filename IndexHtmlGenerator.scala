@@ -1,4 +1,5 @@
 import java.io._
+import scala.language.postfixOps
 
 object IndexHtmlGenerator {
 
