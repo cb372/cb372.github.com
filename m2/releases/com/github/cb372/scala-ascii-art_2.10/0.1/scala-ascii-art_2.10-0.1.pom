@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.cb372</groupId>
+    <artifactId>scala-ascii-art_2.10</artifactId>
+    <packaging>jar</packaging>
+    <description>scala-ascii-art</description>
+    <version>0.1</version>
+    <name>scala-ascii-art</name>
+    <organization>
+        <name>com.github.cb372</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.0</version>
+        </dependency>
+        <dependency>
+            <groupId>net.databinder.dispatch</groupId>
+            <artifactId>dispatch-core_2.10</artifactId>
+            <version>0.9.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.cb372</groupId>
+            <artifactId>rainbow_2.10</artifactId>
+            <version>0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>command</artifactId>
+            <version>0.12.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>launcher-interface</artifactId>
+            <version>0.12.2</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>ChrisBirchallsMavenrepo</id>
+            <name>Chris Birchall's Maven repo</name>
+            <url>http://cb372.github.com/m2/releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
